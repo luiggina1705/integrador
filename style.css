@@ -25,7 +25,7 @@ header {
   background: linear-gradient(to top, var(--black), var(--grey));
   height: 90px;
   width: 100%;
-  max-width: 1300px;
+  max-width: 1500px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -35,9 +35,12 @@ header {
   z-index: 1;
 }
 
+.navbar {
+  display: flex;
+}
 .logo_navbar {
   height: 85%;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 .navbar_list {
@@ -72,6 +75,14 @@ header {
   border: 1px solid var(--pastel);
 }
 
+.navbar i {
+  font-size: 36px;
+  display: none;
+}
+
+#toggle-menu {
+  display: none;
+}
 main {
   background-color: var(--black);
   margin-top: 90px;
@@ -80,7 +91,7 @@ main {
   align-items: center;
   justify-content: center;
   width: 100%;
-  max-width: 1300px;
+  max-width: 1500px;
 }
 
 #hero {
@@ -89,7 +100,7 @@ main {
   background-size: cover;
   padding: 130px 0;
   width: 100%;
-  max-width: 1300px;
+  max-width: 1500px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -115,7 +126,7 @@ main {
   align-items: center;
   padding: 40px 20px;
   width: 90%;
-  max-width: 1300px;
+  max-width: 1500px;
 }
 
 .container_about {
@@ -166,7 +177,7 @@ main {
   justify-content: space-around;
   align-items: center;
   width: 100%;
-  max-width: 1300px;
+  max-width: 1500px;
   padding: 20px 20px;
   font-family: "Montserrat", sans-serif;
   gap: 40px;
@@ -210,7 +221,7 @@ main {
   font-family: "Montserrat", sans-serif;
   padding: 40px 20px;
   margin-top: 20px;
-  max-width: 1300px;
+  max-width: 1500px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -259,7 +270,7 @@ main {
   font-family: "Montserrat", sans-serif;
   padding: 50px 30px;
   width: 100%;
-  max-width: 1300px;
+  max-width: 1500px;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -296,7 +307,7 @@ footer {
   background: linear-gradient(to top, var(--grey), var(--black));
   color: var(--pastel);
   width: 100%;
-  max-width: 1300px;
+  max-width: 1500px;
   padding: 10px 20px;
   font-size: 15px;
   display: flex;

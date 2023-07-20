@@ -1,0 +1,36 @@
+:root {
+    --grey: #434146;
+    --black: #040405;
+    --white: #f4f4f8;
+    --pastel: #baa4cd;
+    --ps: #8b72a1;
+    --violet: #874bbb;
+    --violeta: #59317c;
+    --ros: #ba3fbe;
+    --rrbb: #dd88df;
+    --vi: #4b0258;
+  }
+  
+@media(max-width: 576px) {
+  .navbar ul {
+    background: #040405;
+    width: 100%;
+    height: calc(100vh - 90px);
+    position: absolute;
+    top: 90px;
+    left:0;
+    flex-direction: column;
+    display: none;
+    
+    
+  }
+  .navbar i {
+    display: block;
+    
+  }
+
+  #toggle-menu:checked + .navbar_list {
+    display: flex;
+    
+  }
+}
