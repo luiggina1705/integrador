@@ -13,23 +13,36 @@
   
 @media(max-width: 576px) {
   .navbar ul {
-    background: #040405;
+    background: linear-gradient(to top, var(--black), var(--grey));
+    border: 2px solid var(--black);
+    border-top: 0px;
+    border-radius: 0px 0px 15px 15px;
     width: 100%;
     height: calc(100vh - 90px);
     position: absolute;
     top: 90px;
     left:0;
     flex-direction: column;
-    display: none;
-    
-    
+    /* display: none; */
+    transform: translateX(200%);
+    transition: all 0.4s ease-out;
+    z-index: 2;
+     
   }
   .navbar i {
     display: block;   
   }
 
-  #toggle-menu:checked + .navbar_list {
-    display: flex;
+  .navbar_list a {
+    font-size: 18px;
+    font-weight: bold;
     
+
+  }
+
+  #toggle-menu:checked + .navbar_list {
+    /* display: flex; */
+    transform: translateX(0%);
+    transition: all 0.4s ease-in;
   }
 }

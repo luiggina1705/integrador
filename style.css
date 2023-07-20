@@ -54,7 +54,7 @@ header {
   color: var(--pastel);
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
-  font-weight: 300px;
+  font-weight: 300;
 }
 
 .navbar_list p {
