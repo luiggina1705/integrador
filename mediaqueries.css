@@ -25,8 +25,7 @@
     
   }
   .navbar i {
-    display: block;
-    
+    display: block;   
   }
 
   #toggle-menu:checked + .navbar_list {
