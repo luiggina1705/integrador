@@ -35,18 +35,22 @@ header {
   z-index: 1;
 }
 
-.navbar {
-  display: flex;
-}
 .logo_navbar {
   height: 85%;
-  margin-left: 10px;
 }
 
+.navbar,
 .navbar_list {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.navbar {
+  gap: 100px;
+}
+
+.navbar_list {
   gap: 20px;
 }
 
@@ -55,13 +59,6 @@ header {
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
   font-weight: 300;
-}
-
-.navbar_list p {
-  color: var(--pastel);
-  font-family: "Montserrat", sans-serif;
-  font-size: 15px;
-  font-weight: 300px;
 }
 
 .cart_icon {
@@ -75,14 +72,11 @@ header {
   border: 1px solid var(--pastel);
 }
 
-.navbar i {
-  font-size: 36px;
-  display: none;
+#toggle-menu,
+.menu-label {
+display: none;
 }
 
-#toggle-menu {
-  display: none;
-}
 main {
   background-color: var(--black);
   margin-top: 90px;
@@ -313,6 +307,6 @@ footer {
   display: flex;
   text-align: center;
   justify-content: center;
- font-family: "Montserrat", sans-serif;
- font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
 }
